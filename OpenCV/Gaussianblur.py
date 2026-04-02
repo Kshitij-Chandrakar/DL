@@ -1,7 +1,7 @@
 import cv2
 img=cv2.imread(r"E:\Workspace\free-nature-images.jpg")
 
-blur=cv2.GaussianBlur(img,(5,5),0)
+blur=cv2.GaussianBlur(img,(21,21),0)
 cv2.imshow("Original",img)  
 cv2.imshow("Blurred",blur)
 cv2.waitKey(0)
